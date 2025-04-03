@@ -1,12 +1,5 @@
-    // TODO: Create a custom hook called useTodos.
-    // GOAL: Reduce component complexity by encapsulating todo logic.
-    // useTodos should include:n handleDeleteTodo, handleToggleTodo, handleNewTodo, initialState, init
-    // EXAMPLE:
-    // const { todos, handleDeleteTodo, handleToggleTodo, handleNewTodo } = useTodos();
-    //----------------------------------------------------------------------------
-
 import { useEffect, useReducer } from "react"
-import { todoReducer } from "../08-useReducer/todoReducer"
+import { todoReducer } from "./todoReducer"
 
 const initialState = []
 const init = () => {
